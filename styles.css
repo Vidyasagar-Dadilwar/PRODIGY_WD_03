@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in element's total width and height */
+}
+
+body {
+    background-color: #668586;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 0.5vmin;
+    height: 18vmin;
+    width: 18vmin;
+    min-width: 0;
+    cursor: pointer;
+    /* Ensure minimum width is 0 to prevent stretching */
+    border-radius: 15px;
+    background-color: #A7ACD9;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    font-size: 10vmin;
+    color: #0B2027;
+    transition: none;
+    /* Prevent any transition effect on click */
+}
+
+.btn:active {
+    transform: none;
+    /* Ensure no transformation on click */
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+.reset {
+    margin: 3vh;
+    font-size: 2vmin;
+    height: 5vmin;
+    width: 15vmin;
+    background-color: #EF476F;
+    border-width: 0.5vmin;
+    font-weight: 600;
+}
+
+.new-game {
+    background-color: #06D6A0;
+    margin-top: 1vh;
+    font-size: 2vmin;
+    height: 5vmin;
+    width: 15vmin;
+}
+
+.hide {
+    display: none;
+}    
+
+h1{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.winner{
+    font-size: 10vmin;
+    color: rgb(42, 5, 5);
+    font-family: cursive;
+}
